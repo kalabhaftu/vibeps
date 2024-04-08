@@ -1,0 +1,143 @@
+/* Ensures the website is responsive for mobile devices */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url("./images/background.jpg");
+}
+
+/* Set the container to fill the entire viewport */
+.container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-attachment: fixed;
+    background-image: url("./images/background.jpg"); /* Replace with your image path */
+    background-size: cover; /* Resize image to cover the container */
+    background-position: center; /* Center the image */
+}
+
+/* Additional styles for your content inside the container */
+.container img {
+    padding: 0;
+    height: auto;
+    width: 20rem;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: -10px;
+    justify-content: center;
+}
+
+.container .table {
+    color: white;
+    padding: 25px;
+    text-indent: 45px;
+    text-align: center;
+    padding-top: 0px;
+    font-family: sans-serif;
+    border-collapse: collapse;
+}
+
+.container td {
+    padding: 15px;
+    color: white;
+    border: none;
+    font-size: large;
+    font-family: monospace;
+}
+
+.container th {
+    color: white;
+    border: none;
+    font-size: large;
+    font-family: monospace;
+}
+
+
+.container h1 {
+    color: white;
+}
+
+.container .joypad{
+    margin: 0 auto;
+    height: auto;
+    width: 120px;
+}
+
+.container .tournament {
+    margin-top: 0;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    font-family: monospace;
+}
+
+.container .tour-table {
+    border-collapse: collapse;
+}
+
+.container .tour-table .th {
+    color: white;
+    border: none;
+    padding: 20px;
+    font-size: large;
+    font-family: monospace;
+}
+
+.container .tour-table .td {
+    color: white;
+    border: none;
+    padding: 20px;
+    font-size: large;
+    font-family: monospace;
+}
+.container h3 {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+.container h3 {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+.container p {
+    margin: 10px;
+    color: rgba(255, 251, 251, 0.575);
+    font-weight: bold;
+    text-align: center;
+    text-align: center;
+    font-family: monospace;
+}
+
+.container .footer {
+    padding: 35px;
+    margin: 0 auto;
+    padding-bottom: 0;
+    align-items: center;
+    justify-content: center;
+}
+.container .footer h2 {
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bold;
+    font-family: monospace;    
+}
+
+.container .footer a {
+    color: rgba(177, 177, 177, 0.753);
+    text-decoration: none;
+}
+
+
+
